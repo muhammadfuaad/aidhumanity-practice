@@ -1,0 +1,502 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.text-black-50{
+  color: #1D1D1D;
+}
+
+.bg-black-50{
+  background-color: #1D1D1D;
+}
+
+.text-blue{
+  color: #00ADE9;
+}
+
+.bg-blue-20{
+  background-color: #006ba3;
+}
+
+.bg-blue-light{
+  background-color: #e0f7ff;
+}
+
+.bg-blue{
+  background-color: #00ADE9;
+}
+.text-blue-light{
+  color: #00ADE9;
+}
+
+.bg-blue-blend{
+  background-color: rgb(0, 173, 233, 0.5);
+}
+.border-blue{
+  border-color:  #00ADE9;
+  color: #00ADE9;
+}
+.bg-blue-dark{
+  background-color: #102558;
+}
+.w-carousel{
+  width: 40rem;
+}
+/* .owl-item {
+  width: 100% !important;
+} */
+.donation-history .owl-item img {
+  width: 1rem !important;
+}
+
+.text-blue-dark{
+  color: #102558;
+}
+
+.bg-blue-10{
+  background-color: #E0F7FF;
+}
+
+.bg-green{
+  background-color: #00c98b;
+}
+
+.text-green{
+  color: #00c98b;
+}
+
+.text-gray-light{
+  color: #7c7c7c;
+}
+
+.bg-orange{
+  background-color: #ffc100;
+}
+
+.border-blue:focus{
+  border: 2px solid #00ADE9;
+}
+.text-vs{
+  font-size: 8px;
+}
+.bg-gray{
+  background-color: #f9f9f9;
+}
+.text-gray-600{
+  color: #444445;
+}
+.bg-gray-dark{
+  background-color: #BDBDBD;
+}
+
+.text-gray-300{
+  color: #BDBDBD;
+}
+
+a{
+  cursor: pointer;
+}
+
+.w-sidebar{
+  width: 20.13%;
+}
+
+.w-appeal{
+  width: 35.304%;
+}
+
+.w-dashboard{
+  width: 64.69%;
+}
+
+.table-fix{
+  border: none !important;
+}
+
+.ui.table thead th {
+  background-color: white !important;
+  color: #bdbdbd !important;
+  font-size: 12px !important;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+.fade-in{
+  animation: FadeIn 0.2s linear;
+}
+.fade-in-slow{
+  animation: FadeIn 0.5s linear;
+}
+.slide-down{
+  animation: SlideDown 0.2s linear;
+}
+@keyframes FadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes SlideDown {
+  0% {
+    opacity: 0;
+    height: 0;
+  }
+  100% {
+    opacity: 1;
+    height: 100vh;
+  }
+}
+
+@media only screen and (max-width:990px) {
+  .w-sidebar{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .w-carousel{
+    width: 18rem;
+  }
+  .w-appeal{
+    width: 100%;
+  }
+  
+  .w-dashboard{
+    width: 100%;
+  }
+  
+}
+
+
+
+
+
+
+
+.text-gray {
+  color: #999999;
+}
+
+.text-mont {
+  font-family: Montserrat;
+}
+
+
+.border-f1 {
+  border-color: #F1F1F1;
+}
+
+.text-blue {
+  color: #00ADE9;
+}
+
+
+.donate-now {
+  text-align: center;
+  font: normal normal bold 12px/15px Montserrat;
+  letter-spacing: 0.18px;
+  color: #006BA3;
+  /* background: transparent url('img/template_button-medium.png') 0% 0% no-repeat padding-box; */
+  border: 4px solid #00ADE9;
+  border-radius: 8px;
+  opacity: 1;
+}
+
+.w-861 {
+  width: 861.25px;
+}
+
+.pr-45 {
+  padding-right: 179px;
+}
+
+.pl-14 {
+  padding-left: 57.25px;
+}
+
+
+.w-30 {
+  width: 118px;
+}
+
+.h-width {
+  width: 21.24px;
+}
+
+.w-35 {
+  width: 140px;
+}
+
+.landing-page {
+  background: linear-gradient(270deg, #13265500 0%, #132655 100%), url(./images/background-image.jpg), 0% 0% no-repeat padding-box;
+  opacity: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-unicef {
+  background: linear-gradient(180deg, #7C7C7C00 0%, #000000 100%), url(./images/©-UNICEF_UNI235471_Willocq-1@2x.png) no-repeat padding-box;
+  box-shadow: 0px 5px 20px #00000008;
+  border-radius: 16px;
+  background-size:cover;
+  opacity: 1;
+}
+
+.group15343 {
+  background-image: url(./images/Group\ 15343.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.d-arrow {
+  bottom: 8px;
+  left: 5px;
+}
+
+.arrows {
+  top: 340px;
+}
+
+/* .flood-a {
+  bottom: -184px;
+  left: 450px;
+} */
+
+.w-80 {
+  width: 20rem;
+}
+
+.text-lblack {
+  color: #1D1D1D;
+}
+
+.border-lblack {
+  border-color: #1D1D1D;
+}
+
+.text-l2black {
+  color: #444445;
+}
+
+.border-l2black {
+  border-color: #444445;
+}
+
+.text-green {
+  color: #00C98B;
+}
+/* 
+.bg-gray {
+  background-color: #999999;
+} */
+
+.text-lgray {
+  color: #999999;
+}
+
+.text-nblue {
+  color: #102558
+}
+
+.bg-yellow {
+  background-color: #FFC100;
+}
+
+.border-fyellow {
+  border-color: #FFC100;
+}
+
+.text-fyellow {
+  color: #FFC100;
+}
+
+.bg-owhite {
+  background-color: #F9F9F9;
+}
+
+.border-owhite {
+  border-color: #E6E6E6;
+}
+
+.bg-o2white {
+  background-color: #E6E6E6;
+}
+
+.w-70 {
+  width: 212.35px;
+}
+
+.position-f {
+  left: 120px;
+}
+
+.border-sblue {
+  border-color: #00ADE9;
+}
+
+.text-sblue {
+  color: #00ADE9;
+}
+
+.bg-sblue {
+  background-color: #00ADE9;
+}
+
+.text-dblue {
+  color: #006BA3;
+}
+
+.px-80 {
+  padding-left: 495px;
+  padding-right: 495px;
+}
+
+.absolute-center {
+  right: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* .absolute-middle {
+  top: 50%;
+  bottom: 50%;
+  transform: translate(0%, 0%);
+} */
+
+.border-nblue {
+  border-color: #102558;
+}
+
+.bg-nblue {
+  background-color: #102558;
+}
+
+.-left-10 {
+  left: -180px;
+}
+
+.-left-5 {
+  top: 40%;
+  left: -16px;
+}
+
+.bg-union {
+  background-image: url(./images/Union\ 7.png); 
+}
+
+.left-n {
+  left: -16px;
+}
+
+.w-98 {
+  width: 330px;
+}
+
+.text-lgray {
+  color: #BDBDBD;
+}
+
+.border-lgray {
+  border-color: #BDBDBD;
+}
+
+.bg-red {
+  background-color: #FD4949;
+}
+
+.text-l2gray {
+  color: #F5F6F7;
+}
+
+.bg-l2gray {
+  background-color: #F5F6F7;
+}
+
+.text-dgray {
+  color: #7C7C7C;
+}
+
+.w-85 {
+  width: 331px;
+}
+
+.p-ellipse {
+  bottom: 145.05px;
+  left: 165px;
+}
+
+.p-ellipse-2 {
+  bottom: 223.36px;
+  right: 180px;
+}
+
+.p-ellipse-3 {
+  top: -152px;
+  right: 73.51px;
+}
+
+.bg-green {
+  background-color: #00C98B;
+}
+
+.text-footer {
+  color: #8892AC;
+}
+
+.triangle-up {
+  top: -8px;
+  left: 30rem;
+}
+
+.triangle-up-2 {
+  top: -8px;
+  left: 39rem;
+}
+
+.triangle-up-3 {
+  top: -8px;
+  left: 47.25rem;
+}
+
+.w-popup {
+  width: 644px;
+  top: 20px;
+  left: 32%;
+}
+
+.w-137 {
+  width: 137px;
+}
+
+.pop-badge {
+  left: 40%;
+  top: -12px;
+}
+
+hr.solid {
+  border-top: 3px solid #E2E2E2   ;
+}
+
+
+@media (max-width:920px)  {
+  .landing-page {
+      background: linear-gradient(270deg, #13265500 0%, #132655 100%), url(./images/background-image-mobile.png), 0% 0% no-repeat padding-box;
+      opacity: 1;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: top;
+  }
+
+  .group15343 {
+      background-image: none;
+  }
+}

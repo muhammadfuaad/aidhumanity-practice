@@ -1,0 +1,10 @@
+<svg id="shape_mega-menu-horizontal-large" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1421.222" height="6" viewBox="0 0 1421.222 6">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="0.996" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#47ace4"/>
+      <stop offset="0.507" stop-color="#00ade9"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_70550" data-name="Path 70550" d="M1393.964,112.5a25.89,25.89,0,0,0-16.611-6h-1388a25.89,25.89,0,0,0-16.611,6Z" transform="translate(27.258 -106.5)" fill="url(#linear-gradient)"/>
+</svg>
