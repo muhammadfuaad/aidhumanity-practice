@@ -59,5 +59,52 @@
   font-weight: bold;
   color:black;
 }
+.page__heading {
+  font-size: 36px;
+  font-weight: bold;
+  color:black;
+}
+.body__text {
+  color: #444445;
+  font-size: 22px;
+  font-weight: normal;
+}
 
 /* buttons */
+.page-header {
+  background: #E0F7FF;
+  text-align: center;
+  padding: 30px 0;
+  margin: auto;
+}
+.page-heading {
+  font-size: 30px;
+  font-weight: bold;
+}
+.navigator {
+  color: #999999;
+  font-size: 16px;
+  font-weight: normal;
+}
+.container {
+  padding: 0 120px;
+  margin: auto;
+}
+
+/* media */
+.media {
+  display: flex;
+  margin-bottom: 4rem;
+}
+
+.media__title {
+  margin-top: 0;
+}
+
+.media__body {
+  margin: 0 2rem;
+}
+
+.media__image {
+  margin-top: 1rem;
+}
