@@ -11,9 +11,12 @@
   border: 1px solid #999;
   border-radius: 7px;
 }
+input:focus {
+  outline: 2px solid #00ADE9;
+}
 .message {
   height: 200px;
-
+  padding-bottom: 160px;
 }
 .disclaimer {
   font-size: 14px;
@@ -52,7 +55,13 @@
   display: flex;
   flex-direction: column;
   gap: 15px;
+  margin-top: 70px;
 
+}
+.contact-form::before {
+  content: url(shape_mega-menu-horizontal-medium.svg);
+  width: 40px;
+  display: inline-block;
 }
 .card__heading {
   font-size: 30px;
@@ -86,15 +95,24 @@
   font-size: 16px;
   font-weight: normal;
 }
-.container {
+.block {
   padding: 0 120px;
   margin: auto;
 }
+.page-content {
+  flex-basis: 80%;
+  padding-right: 100px;
+}
+
 
 /* media */
+.media-section {
+  padding: 30px 0;
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+}
 .media {
   display: flex;
-  margin-bottom: 4rem;
 }
 
 .media__title {
@@ -103,6 +121,16 @@
 
 .media__body {
   margin: 0 2rem;
+}
+.media__body p {
+  font-size: 30px;
+  font-weight: bold;
+  color: #1d1d1d;
+}
+.media__body h3{
+  font-size: 11px;
+  font-weight: 600;
+  color: #7c7c7c;
 }
 
 .media__image {
