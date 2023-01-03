@@ -6,10 +6,25 @@
 }
 
 /* input */
+.input-container {
+  position: relative;
+}
 .input {
   padding: 7px;
   border: 1px solid #999;
   border-radius: 7px;
+  width: 100%;
+}
+label {
+  position: absolute;
+  top: 20%;
+  left: 2%;
+  color: #7c7c7c;
+}
+#name:focus + label, #email:focus + label, #phone:focus + label,
+#subject:focus + label, #message:focus + label {
+  top: 2%;
+  font-size: 8px;
 }
 input:focus {
   outline: 2px solid #00ADE9;
@@ -185,3 +200,4 @@ input:focus {
   fill: #1d1d1d;
   width: 20px;
 }
+
