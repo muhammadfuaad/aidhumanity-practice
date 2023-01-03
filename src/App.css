@@ -14,6 +14,14 @@
 input:focus {
   outline: 2px solid #00ADE9;
 }
+.input::placeholder:focus {
+  color: #00ADE9;
+  position: absolute;
+  pointer-events: none;
+  left: 20px;
+  top: 0;
+  transition: 0.2s ease all;
+}
 .message {
   height: 200px;
   padding-bottom: 160px;
@@ -55,7 +63,7 @@ input:focus {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  margin-top: 70px;
+  margin: 70px auto 0 auto;
 
 }
 .contact-form::before {
@@ -114,7 +122,10 @@ input:focus {
 @media screen and (max-width: 768px) {
   .page {
     flex-direction: column;
-
+  }
+  .media-section {
+    flex-direction: column;
+    gap: 1.5rem;
   }
   .page__content {
     padding: 0;
@@ -141,8 +152,9 @@ input:focus {
 /* media */
 .media-section {
   padding: 30px 0;
-  border-top: 1px solid #999;
-  border-bottom: 1px solid #999;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  
 }
 .media {
   display: flex;
@@ -153,7 +165,7 @@ input:focus {
 }
 
 .media__body {
-  margin: 0 2rem;
+  margin: 0 1rem;
 }
 .media__body p {
   font-size: 30px;
