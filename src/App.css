@@ -5,3 +5,59 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+/* input */
+.input {
+  padding: 7px;
+  border: 1px solid #999;
+  border-radius: 7px;
+}
+.message {
+  height: 200px;
+
+}
+.disclaimer {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1d1d1d;
+}
+.disclaimer .highlights {
+  color: #00ADE9;
+}
+
+/* buttons */
+.btn {
+  border-radius: 7px;
+  border: 0;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 1rem 0;
+  outline: 0;
+  padding: 7px;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.btn--primary {
+  background: #00ADE9;
+  color: #fff;
+}
+/* cards */
+.card {
+  padding: 1.5rem;
+  border-radius: 7px;
+  box-shadow: 0 0 20px 10px #f3f3f3;
+  overflow: hidden;
+  max-width: 570px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+}
+.card__heading {
+  font-size: 30px;
+  font-weight: bold;
+  color:black;
+}
+
+/* buttons */
