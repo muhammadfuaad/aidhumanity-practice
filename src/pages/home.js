@@ -14,14 +14,17 @@ function Home() {
     
       
     <>
-    <Header />
-    <div className="page-header">
-      <p className="page-heading">Contact</p>
+    <div className="page__header">
+      <p className="page__heading">Contact</p>
       
     </div>
     <section className="block">
-      <div class="flex">
-        <div class="basis-1/2 flex flex-col space-y-8 page-content">
+      <div className="flex page relative">
+        <img className="absolute" src="/images/vectors/blue-circle-small.svg"></img>
+        <img className="absolute top-1/2 -left-[10%]" src="/images/vectors/yellow-ring-small.svg"></img>
+        <img className="absolute" src="/images/vectors/yellow-ring-large.svg"></img>
+
+        <div className="basis-1/2 flex flex-col space-y-8 page__content">
           <div className="flex flex-col space-y-8">
             <p className="navigator">Home / Contact</p>
             <p className="page__heading">Contact</p>

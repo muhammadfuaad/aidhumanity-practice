@@ -51,7 +51,7 @@ input:focus {
   border-radius: 7px;
   box-shadow: 0 0 20px 10px #f3f3f3;
   overflow: hidden;
-  max-width: 570px;
+  width: 570px;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -62,6 +62,9 @@ input:focus {
   content: url(shape_mega-menu-horizontal-medium.svg);
   width: 40px;
   display: inline-block;
+  position: absolute;
+  top: -12px;
+  left: 0;
 }
 .card__heading {
   font-size: 30px;
@@ -79,14 +82,18 @@ input:focus {
   font-weight: normal;
 }
 
-/* buttons */
-.page-header {
+/* page */
+
+.page {
+  margin-top: 50px;
+}
+.page__header {
   background: #E0F7FF;
   text-align: center;
   padding: 30px 0;
   margin: auto;
 }
-.page-heading {
+.page__heading {
   font-size: 30px;
   font-weight: bold;
 }
@@ -99,10 +106,36 @@ input:focus {
   padding: 0 120px;
   margin: auto;
 }
-.page-content {
+.page__content {
   flex-basis: 80%;
   padding-right: 100px;
 }
+
+@media screen and (max-width: 768px) {
+  .page {
+    flex-direction: column;
+
+  }
+  .page__content {
+    padding: 0;
+  }
+  .navigator {
+    display: none;
+  }
+  .block {
+    padding: 0 20px;
+  }
+  .media-section {
+    flex-direction: column;
+  }
+  
+}
+@media screen and (max-width: 1280px) {
+  .block {
+    padding: 0 20px;
+  }
+}
+
 
 
 /* media */
@@ -135,4 +168,8 @@ input:focus {
 
 .media__image {
   margin-top: 1rem;
+}
+.icon {
+  fill: #1d1d1d;
+  width: 20px;
 }
