@@ -10,33 +10,27 @@
   position: relative;
 }
 .input {
-  padding: 7px;
+  padding: 12px 7px 5px 7px;
   border: 1px solid #999;
   border-radius: 7px;
   width: 100%;
 }
 label {
   position: absolute;
-  top: 20%;
+  top: 10px;
   left: 2%;
   color: #7c7c7c;
 }
-#name:focus + label, #email:focus + label, #phone:focus + label,
-#subject:focus + label, #message:focus + label {
-  top: 2%;
-  font-size: 8px;
+#name:focus + label, #name:valid + label, #email:focus + label, #email:valid + label, #phone:focus + label,
+#phone:valid + label, #subject:focus + label, #subject:valid + label, #message:focus + label, 
+#message:valid + label {
+  top: 4px;
+  font-size: 11px;
 }
 input:focus {
   outline: 2px solid #00ADE9;
 }
-.input::placeholder:focus {
-  color: #00ADE9;
-  position: absolute;
-  pointer-events: none;
-  left: 20px;
-  top: 0;
-  transition: 0.2s ease all;
-}
+
 .message {
   height: 200px;
   padding-bottom: 160px;

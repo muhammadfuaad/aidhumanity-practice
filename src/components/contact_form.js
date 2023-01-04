@@ -10,19 +10,19 @@ function Contact_form() {
     </div>
     <div className="input-container">
       <input className="input" type="text" id="email" required></input>
-      <label for="email">email*</label>
+      <label for="email">Email*</label>
     </div>
     <div className="input-container">
       <input className="input" type="text" id="phone" required></input>
-      <label for="phone">phone*</label>
+      <label for="phone">Phone*</label>
     </div>
     <div className="input-container">
       <input className="input" type="text" id="subject" required></input>
-      <label for="subject">subject*</label>
+      <label for="subject">Subject*</label>
     </div>
     <div className="input-container">
       <input className="input message" type="text" id="message" required></input>
-      <label for="message">message*</label>
+      <label for="message">Message*</label>
     </div>
     
     <div className="flex space-x-2">
