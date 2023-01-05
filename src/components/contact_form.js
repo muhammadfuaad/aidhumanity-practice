@@ -1,6 +1,4 @@
 function Contact_form() {
-
-
   return (
   <div className="card contact-form relative">
     <h2 className="card__heading">Contact Form</h2>

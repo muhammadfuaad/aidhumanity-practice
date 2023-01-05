@@ -10,6 +10,7 @@
   --color-primary: #00ADE9;
   --color-prmary-dark: #102558;
   --color-primary-light: #E0F7FF;
+  --border-light: 1px solid #e6e6e6;
 }
 
 body {
@@ -65,7 +66,6 @@ input:focus {
   cursor: pointer;
   font-size: 14px;
   font-weight: 600;
-  margin: 1rem 0;
   outline: 0;
   padding: 10px;
   text-align: center;
@@ -75,6 +75,9 @@ input:focus {
 .btn--primary {
   background: #00ADE9;
   color: #fff;
+}
+.btn--large {
+  padding: 10px 50px;
 }
 /* cards */
 .card {
@@ -110,7 +113,9 @@ input:focus {
   top: -18px;
   left: 0;
 }
-
+.contact-form .btn {
+  margin: 1rem 0;
+}
 /* page */
 h1, h2 {
   font-weight: bold;
@@ -140,6 +145,10 @@ h2 {
 .page__content p {
   margin-bottom: 25px;
 }
+.page__content .email {
+  font-weight: 600;
+  color: var(--color-primary);
+}
 .navigator {
   color: #999999;
   font-size: 16px;
@@ -163,6 +172,7 @@ h2 {
   h1 {
     font-size: 32px;
     letter-spacing: -0.48px;
+    margin-top: 30px;
   }
   h2 {
     font-size: 26px;
@@ -189,6 +199,16 @@ h2 {
   }
   .contact-form {
     margin-top: 70px;
+  }
+  .sidebar {
+    display: none;
+  }
+  .assistance {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .assistance .btn {
+    width: 100%;
   }
   
 }
@@ -244,6 +264,12 @@ h2 {
 }
 
 /* sidebar */
+.sidebar {
+  height: fit-content;
+  min-width:fit-content;
+  padding: 0 0 200px 50px;
+  border-left: var(--border-light);
+}
 .sidebar__heading {
   font-size: 20px;
   font-weight: 700;
@@ -260,4 +286,18 @@ h2 {
 .sidebar__links:hover {
   color: var(--color-primary);
   cursor: pointer;
+}
+.assistance {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #999;
+  border-radius: 7px;
+}
+.assistance p {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.45px;
+  color: var(--color-headings);
 }
