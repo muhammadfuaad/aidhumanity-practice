@@ -4,6 +4,19 @@
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
 }
+:root {
+  --color-headings: #1D1D1D;
+  --color-body: #444445;
+  --color-primary: #00ADE9;
+  --color-prmary-dark: #102558;
+  --color-primary-light: #E0F7FF;
+}
+body {
+  font-size: 22px;
+  font-weight: normal;
+  letter-spacing: -0.55px;
+  color: var(--color-body);
+}
 
 /* input */
 .input-container {
@@ -71,7 +84,7 @@ input:focus {
   max-width: 570px;
   display: flex;
   flex-direction: column;
-  margin: 70px auto 0 auto;
+  margin: 20px auto 0 auto;
 }
 /* form */
 .form__inputs {
@@ -92,47 +105,35 @@ input:focus {
   width: 40px;
   display: inline-block;
   position: absolute;
-  top: -12px;
+  top: -18px;
   left: 0;
-}
-.card__heading, .page h2 {
-  font-size: 30px;
-  font-weight: bold;
-  color:black;
-}
-.card__heading {
-  margin-bottom: 30px;
-}
-/* page */
-.page h1 {
-  font-size: 36px;
-  font-weight: bold;
-  color:black;
-  letter-spacing: -0.54px;
-}
-.page h2 {
-  font-size: 30px;
-  font-weight: bold;
-  color:black;
-  letter-spacing: -0.75px;
-}
-.body__text {
-  font-size: 22px;
-  font-weight: normal;
-  letter-spacing: -0.55px;
-  color: #444445;
 }
 
 /* page */
+h1, h2 {
+  font-weight: bold;
+  color:var(--color-headings);
+  margin-bottom: 30px;
+}
+h1 {
+  font-size: 36px;
+  letter-spacing: -0.54px;
+}
+h2 {
+  font-size: 30px;
+  letter-spacing: -0.75px;
+}
+
+
+/* page */
 .page__header {
-  background: #E0F7FF;
+  background: var(--color-primary-light);
   text-align: center;
   padding: 30px 0;
   margin: auto;
 }
-.page__heading {
-  font-size: 30px;
-  font-weight: bold;
+.page__header h2 {
+  margin: 0;
 }
 .navigator {
   color: #999999;
@@ -150,6 +151,18 @@ input:focus {
 }
 
 @media screen and (max-width: 768px) {
+  body {
+    font-size: 18px;
+    letter-spacing: -0.45px;
+  }
+  h1 {
+    font-size: 32px;
+    letter-spacing: -0.48px;
+  }
+  h2 {
+    font-size: 26px;
+    letter-spacing: -0.65px;
+  }
   .page {
     flex-direction: column;
   }
@@ -168,6 +181,9 @@ input:focus {
   }
   .media-section {
     flex-direction: column;
+  }
+  .contact-form {
+    margin-top: 70px;
   }
   
 }
@@ -200,21 +216,17 @@ input:focus {
 .media__content {
   font-size: 30px;
   font-weight: bold;
+  letter-spacing: -0.75px;
   color: #1d1d1d;
-}
-p.media__content:nth-of-type(2) {
-  font-size: 24px;
-
 }
 .email {
   font-size: 24px;
-}
-.media__body p:nth-of-type(even) {
-  font-size: 24px;
+  letter-spacing: -0.6px;
 }
 .media__body h3{
   font-size: 11px;
   font-weight: 600;
+  letter-spacing: 0;
   color: #7c7c7c;
 }
 

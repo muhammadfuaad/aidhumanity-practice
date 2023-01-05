@@ -1,9 +1,8 @@
 import React from 'react';
 import Switch from '../components/switch/switch';
 import Header from '../components/header';
-import Contact_form from '../components/contact_form';
-import Media from '../components/media'
 import Footer from '../components/footer';
+import Contact_page from '../components/contact_page';
 
 
 function Home() {
@@ -14,35 +13,25 @@ function Home() {
     
       
     <>
-    <div className="page__header">
-      <p className="page__heading">Contact</p>
-      
-    </div>
-    <section className="block">
-      <div className="flex page relative">
-        <img className="absolute" src="/images/vectors/blue-circle-small.svg"></img>
-        <img className="absolute top-1/2 -left-[10%]" src="/images/vectors/yellow-ring-small.svg"></img>
-        <img className="absolute" src="/images/vectors/yellow-ring-large.svg"></img>
+      <Contact_page />
+      <section className="page">
+        <div className="page__header">
+          <h2>Our Story</h2>
+        </div>
+        <div className="block">
+          <p className="navigator">Home / Contact</p>
+          <div className='flex'>
+            <div className='flex flex-col basis-3/5'>
+              <h1 className="page__heading">Our Story</h1>
+              <h2 className="card__heading">About us</h2>
+              <p className="body__text">Aid Humanity is proud to be a non-profit organisation 
+              that passes 100% of our donations to charitable causes around the world.</p>
 
-        <div className="basis-1/2 flex flex-col space-y-8 page__content">
-          <div className="flex flex-col space-y-8">
-            <p className="navigator">Home / Contact</p>
-            <p className="page__heading">Contact</p>
-            <p className="card__heading">Got a Question?</p>
-            <p className="body__text">Aid Humanity is a thoughtful, caring community of like-minded individuals ready to give back and make a difference. If you’d like to know more about what we do, or have a question about how you can help, all you have to do is ask.</p>
-        
-            <Media />
-        
-            <p className="card__heading">Company Details</p>
-            <p className="body__text">Aid Humanity, Unit 9, Twelve o’clock Court, Sheffield, S4 7WW</p>
+            </div>
           </div>
         </div>
-        <Contact_form />
-      </div>
-      
-      
-      
-    </section>
+      </section>
+    
 
 
     

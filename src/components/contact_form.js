@@ -3,7 +3,7 @@ function Contact_form() {
 
   return (
   <div className="card contact-form relative">
-    <p className="card__heading">Contact Form</p>
+    <h2 className="card__heading">Contact Form</h2>
     <div class="form__inputs">
       <div className="input-container">
         <input className="input" type="text" id="name" required></input>
