@@ -11,6 +11,7 @@
   --color-prmary-dark: #102558;
   --color-primary-light: #E0F7FF;
 }
+
 body {
   font-size: 22px;
   font-weight: normal;
@@ -66,7 +67,7 @@ input:focus {
   font-weight: 600;
   margin: 1rem 0;
   outline: 0;
-  padding: 7px;
+  padding: 10px;
   text-align: center;
   text-transform: uppercase;
   white-space: nowrap;
@@ -78,6 +79,7 @@ input:focus {
 /* cards */
 .card {
   padding: 1.5rem;
+  background: #fff;
   border-radius: 7px;
   box-shadow: 0 0 20px 10px #f3f3f3;
   overflow: hidden;
@@ -134,6 +136,9 @@ h2 {
 }
 .page__header h2 {
   margin: 0;
+}
+.page__content p {
+  margin-bottom: 25px;
 }
 .navigator {
   color: #999999;
@@ -238,3 +243,21 @@ h2 {
   width: 20px;
 }
 
+/* sidebar */
+.sidebar__heading {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: var(--color-headings);
+  margin-bottom: 30px;
+}
+.sidebar__links {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.45px;
+  color: var(--color-headings);
+}
+.sidebar__links:hover {
+  color: var(--color-primary);
+  cursor: pointer;
+}

@@ -11,9 +11,9 @@ function Contact_page() {
         <div className="block">
           <p className="navigator">Home / Contact</p>
           <div className="flex page relative">
-            <img className="absolute" src="/images/vectors/blue-circle-small.svg"></img>
-            <img className="absolute top-1/2 -left-[10%]" src="/images/vectors/yellow-ring-small.svg"></img>
-            <img className="absolute" src="/images/vectors/yellow-ring-large.svg"></img>
+            <img className="absolute bottom-[120px] left-[100px]" src="/images/vectors/blue-circle-small.svg"></img>
+            <img className="absolute top-[200px] left-[-120px]" src="/images/vectors/yellow-ring-small.svg"></img>
+            <img className="absolute top-[100px] right-[-200px]" src="/images/vectors/yellow-ring-large.svg"></img>
             <div className="basis-1/2 flex flex-col space-y-8 page__content">
               <div className="flex flex-col space-y-8">
       
