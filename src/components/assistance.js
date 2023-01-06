@@ -1,7 +1,7 @@
 function Assistance() {
   return (
     <div className="assistance flex">
-      <p>Need further assistance? We’re here to help</p>
+      <p><span>Need further assistance?</span><span>We’re here to help</span></p>
       <button className="btn btn--primary btn--large">Contact Us</button>
     </div>
   );
