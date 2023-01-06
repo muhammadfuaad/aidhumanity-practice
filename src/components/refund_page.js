@@ -1,4 +1,4 @@
-import Related_articles from '../components/related_articles';
+import Page_sidebar from '../components/page_sidebar';
 import Assistance from '../components/assistance';
 function Refund_page() {
   return (
@@ -8,7 +8,7 @@ function Refund_page() {
       </div>
       <div className="page">
         <div className="block">
-          <p className="navigator">Home / Contact</p>
+          <p className="navigator">Home / Help Center / Contact</p>
           <div className="flex page relative">
             <div className="basis-1/2 flex flex-col space-y-8 pb-[100px]">
               <div className="flex flex-col space-y-8">
@@ -52,7 +52,7 @@ function Refund_page() {
                 </div>
               </div>
             </div>
-            <Related_articles />
+            <Page_sidebar />
           </div>
         </div>
       </div>
