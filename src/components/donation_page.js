@@ -1,11 +1,10 @@
 import Page_sidebar from './page_sidebar';
 import Assistance from './assistance';
+import Page_header from './page_header';
 function Donation_page() {
   return (
     <section>
-      <div className="page__header">
-        <h2>Help Center</h2>
-      </div>
+      <Page_header heading="Help Center" />
       <div className="page">
         <div className="block">
           <p className="navigator">Home / Help Center / Donation Policy</p>

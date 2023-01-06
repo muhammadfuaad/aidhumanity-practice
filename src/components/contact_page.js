@@ -1,11 +1,10 @@
 import Media from '../components/media';
 import Contact_form from '../components/contact_form';
+import Page_header from './page_header';
 function Contact_page() {
   return (
     <section>
-      <div className="page__header">
-        <h2>Contact</h2>
-      </div>
+      <Page_header heading="Contact" />
       <div className="page">
       
         <div className="block">

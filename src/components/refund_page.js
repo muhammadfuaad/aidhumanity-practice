@@ -1,11 +1,10 @@
 import Page_sidebar from '../components/page_sidebar';
 import Assistance from '../components/assistance';
+import Page_header from './page_header';
 function Refund_page() {
   return (
     <section>
-      <div className="page__header">
-        <h2>Help Center</h2>
-      </div>
+      <Page_header heading="Help Center" />
       <div className="page">
         <div className="block">
           <p className="navigator">Home / Help Center / Contact</p>
