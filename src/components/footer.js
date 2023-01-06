@@ -4,7 +4,7 @@ import React from "react";
 function Footer() {
     return (
       <footer class="bg-Space-Cadet p-5 px-48 pt-16 relative overflow-hidden z-0">
-        <%= image_tag "logo-lg-gray.svg", class: "absolute top-0 right-[1rem] z-10", alt: "stripe logo" %>
+        <img "logo-lg-gray.svg" className= "absolute top-0 right-[1rem] z-10" alt= "stripe logo" />
         <div class="wrapper">
           <p class="text-xs text-White opacity-50 font-medium mb-4">Aid Humanity is a UK registered charity 1184639.</p>
           <div class="flex gap-12">
@@ -12,18 +12,18 @@ function Footer() {
             <div class="flex flex-col basis-[40%]">
               <div class="mr-12 ">
                 <div class="flex">
-                  <%= image_tag "footer-logo.png", class: "h-[7.4rem] w-[10.6rem]", alt: "footer logo" %>
+                  <img "footer-logo.png" className= "h-[7.4rem] w-[10.6rem]" alt= "footer logo" />
                   <div class="ml-12 flex flex-col justify-between">
                     <div class="flex space-x-2 items-center">
-                      <%= image_tag "phone.png", class: "w-[17px] h-[1rem] mr-1", alt: "phone icon" %>
+                      <img "phone.png" className= "w-[17px] h-[1rem] mr-1" alt= "phone icon" />
                       <div><p class="text-Vivd-Cerulean text-lg font-bold tracking-[-.27px]">0330 057 9957</p></div>
                     </div>
                     <div><p class="text-Amber text-lg font-semibold tracking-[-.27px]">info@aidhumanity.co.uk</p></div>
                     <div class="flex justify-between items-center w-[10.3rem]">
-                      <%= image_tag "facebook.png", class: "w-[9px] h-[1rem]", alt: "facebook icon" %>
-                      <%= image_tag "twitter.png", class: "w-[20px] h-[17px]", alt: "twitter icon" %>
-                      <%= image_tag "instagram.png", class: "w-[25px] h-[25px]", alt: "instagram icon" %>
-                      <%= image_tag "linkedin.png", class: "w-[18px] h-[17px]", alt: "linkedin icon" %>
+                      <img "facebook.png" className= "w-[9px] h-[1rem]" alt= "facebook icon" />
+                      <img "twitter.png" className= "w-[20px] h-[17px]" alt= "twitter icon" />
+                      <img "instagram.png" className= "w-[25px] h-[25px]" alt= "instagram icon" />
+                      <img "linkedin.png" className= "w-[18px] h-[17px]" alt= "linkedin icon" />
                     </div>
                   </div>
                 </div>
@@ -31,7 +31,7 @@ function Footer() {
               </div>
               <div class="flex items-center mt-[4rem]">
                 <span class="text-xs text-White opacity-50 font-medium mr-2">Registered with</span>
-                <%= image_tag "regulator.png", class: "w-[7.5rem] h-[2.25rem] mix-blend-luminosity", alt: "regulator icon" %>
+                <img "regulator.png" className= "w-[7.5rem] h-[2.25rem] mix-blend-luminosity" alt= "regulator icon" />
               </div>
             </div>
       
@@ -75,7 +75,7 @@ function Footer() {
                     <button class="w-[45px] h-[40px] ml-3 bg-Vivd-Cerulean text-white font-medium text-xs leading-tight uppercase rounded-lg shadow-md hover:bg-blue-700 flex items-center">
                       <svg xmlns="http://www.w3.org/2000/svg" width="45" height="10.121" viewBox="0 0 13.24 10.121">
                         <g id="arrow-right" transform="translate(0.75 1.061)">
-                          <path id="Path_4820" data-name="Path 4820" d="M6.962.7l3.911,3.97L6.962,8.7" transform="translate(0.865 -0.702)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+                          <path id="Path_4820" data-name="Path 4820" d="M6.962.7l3.9113.97L6.9628.7" transform="translate(0.865 -0.702)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
                           <line id="Line_158" data-name="Line 158" x1="11.74" transform="translate(0 4)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5" />
                         </g>
                       </svg>
@@ -85,7 +85,7 @@ function Footer() {
               </div>
               <div class="flex items-center text-White mt-[6.8rem]">
                 <span class="font-semibold text-lg tracking-[-.9px] mr-4">we transfer</span>
-                <%= image_tag "100percent.png", class: "w-[113px] h-[46px]", alt: "100percent" %>
+                <img src="100percent.png" className= "w-[113px] h-[46px]" alt= "100percent" />
                 <span class="font-semibold text-xs tracking-[-.6px] ml-1">of your donation</span>
               </div>
             </div>
@@ -106,10 +106,10 @@ function Footer() {
               <span class="font-medium">All rights reserved.</span>
             </p>
             <div class="flex justify-between items-center basis-[25%]">
-              <%= image_tag "visa.png", class: "w-[43px] h-[14px] mix-blend-luminosity", alt: "visa logo" %>
-              <%= image_tag "mastercard.png", class: "w-[29px] h-[18px] mix-blend-luminosity", alt: "mastercard logo" %>
-              <%= image_tag "paypal.png", class: "w-[87px] h-[21px] mix-blend-luminosity", alt: "paypal logo" %>
-              <%= image_tag "stripe.png", class: "w-[53px] h-[22px] mix-blend-luminosity", alt: "stripe logo" %>
+              <img "visa.png" className= "w-[43px] h-[14px] mix-blend-luminosity" alt= "visa logo" />
+              <img "mastercard.png" className= "w-[29px] h-[18px] mix-blend-luminosity" alt= "mastercard logo" />
+              <img "paypal.png" className= "w-[87px] h-[21px] mix-blend-luminosity" alt= "paypal logo" />
+              <img "stripe.png" className= "w-[53px] h-[22px] mix-blend-luminosity" alt= "stripe logo" />
             </div>
           </div>
         </div>
