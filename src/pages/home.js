@@ -14,6 +14,7 @@ function Home() {
       
     <>
       <Donation_page />
+      <Footer />
 
     
     </>
