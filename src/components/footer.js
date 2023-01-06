@@ -3,7 +3,7 @@ import React from "react";
 
 function Footer() {
     return (
-      <footer className="bg-Space-Cadet p-5 px-48 pt-16 relative overflow-hidden z-0">
+      <footer className="bg-prmary-dark p-5 px-48 pt-16 relative overflow-hidden z-0">
         <img src="./Icons/icon_toogle-off.svg" className= "absolute top-0 right-[1rem] z-10" alt= "stripe logo" />
         <div className="wrapper">
           <p className="text-xs text-White opacity-50 font-medium mb-4">Aid Humanity is a UK registered charity 1184639.</p>
