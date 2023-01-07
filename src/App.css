@@ -12,6 +12,7 @@
   --color-primary-light: #E0F7FF;
   --color-footer-text: #8892AC;
   --border-light: 1px solid #e6e6e6;
+  --border-dark: 1px solid var(--color-body);
 }
 
 body {
@@ -76,6 +77,11 @@ input:focus {
 .btn--primary {
   background: #00ADE9;
   color: #fff;
+}
+.btn--transparent {
+  background: transparent;
+  color: var(--color-body);
+  border: var(--border-dark);
 }
 .btn--large {
   padding: 10px 50px;
@@ -306,4 +312,73 @@ h2 {
   font-weight: 700;
   letter-spacing: -0.45px;
   color: var(--color-headings);
+}
+
+/* share */
+.card.share {
+  flex-direction: row;
+  align-items: center;
+  width: 644px;
+  height: 305px;
+  border-radius: 20px;
+  box-shadow: none;
+}
+.share br{
+  line-height: 1.5em;
+}
+.share h1 {
+  margin-bottom: 10px;
+}
+.share .left {
+  flex-basis: 70%;
+}
+.share .p {
+  font-size: 16px;
+}
+.card.share .highlight {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.18px;
+  color: #006BA3;
+  text-align: center;
+}
+
+/* status */
+.status {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  border-radius: 10px;
+  width: 330px;
+  height: 115px;
+  padding: 16px;
+}
+.status h3 {
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: -0.55px;
+  color: var(--color-headings);
+}
+.status p {
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: -0.28px;
+  color:var(--color-body);
+}
+.status img {
+  margin-top: 15px;
+  width: 49px;
+  height: 54px;
+}
+.status--green {
+  border: 2px solid #00C98B;
+  background: #B4FFE8;
+}
+.status--pink {
+  border: 2px solid #FD4949;
+  background: #FFEAEA;
+}
+.status .right {
+  display: flex;
+  flex-direction: column;
 }
