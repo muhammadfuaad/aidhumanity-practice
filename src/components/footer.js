@@ -4,7 +4,6 @@ import React from "react";
 function Footer() {
     return (
       <footer className="bg-primary-dark p-5 px-48 pt-16 relative overflow-hidden z-0">
-        <img src="./Icons/icon_toogle-off.svg" className= "absolute top-0 right-[1rem] z-10" alt= "stripe logo" />
         <div className="wrapper">
           <p className="text-xs text-white opacity-50 font-medium mb-4">Aid Humanity is a UK registered charity 1184639.</p>
           <div className="flex gap-12">
@@ -12,10 +11,10 @@ function Footer() {
             <div className="flex flex-col basis-[40%]">
               <div className="mr-12 ">
                 <div className="flex">
-                  <img src="./Icons/icon_toogle-off.svg" className= "h-[7.4rem] w-[10.6rem]" alt= "footer logo" />
+                  <img src="./Icons/footer-logo.svg" className= "h-[7.4rem] w-[10.6rem]" alt= "footer logo" />
                   <div className="ml-12 flex flex-col justify-between">
                     <div className="flex space-x-2 items-center">
-                      <img src="./Icons/icon_toogle-off.svg" className= "w-[17px] h-[1rem] mr-1" alt= "phone icon" />
+                      <img src="./Icons/phone-volume.svg" className= "w-[17px] h-[1rem] mr-1" alt= "phone icon" />
                       <div><p className="text-primary text-lg font-bold tracking-[-.27px]">0330 057 9957</p></div>
                     </div>
                     <div><p className="text-amber text-lg font-semibold tracking-[-.27px]">info@aidhumanity.co.uk</p></div>
@@ -31,7 +30,7 @@ function Footer() {
               </div>
               <div className="flex items-center mt-[4rem]">
                 <span className="text-xs text-white opacity-50 font-medium mr-2">Registered with</span>
-                <img src="./Icons/icon_toogle-off.svg" className= "w-[7.5rem] h-[2.25rem] mix-blend-luminosity" alt= "regulator icon" />
+                <img src="./Icons/regulator.svg" className= "w-[7.5rem] h-[2.25rem] mix-blend-luminosity" alt= "regulator icon" />
               </div>
             </div>
       
@@ -85,7 +84,7 @@ function Footer() {
               </div>
               <div className="flex items-center text-white mt-[6.8rem]">
                 <span className="font-semibold text-lg tracking-[-.9px] mr-4">we transfer</span>
-                <img src="./Icons/icon_toogle-off.svg" className= "w-[113px] h-[46px]" alt= "100percent" />
+                <img src="./Icons/100percent.svg" className= "w-[113px] h-[46px]" alt= "100percent" />
                 <span className="font-semibold text-xs tracking-[-.6px] ml-1">of your donation</span>
               </div>
             </div>
