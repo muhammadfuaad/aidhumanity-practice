@@ -7,6 +7,8 @@ import React from 'react';
 import Status_green from '../components/status/status--green';
 import Status_declined from '../components/status/status--declined';
 import Status_bug from '../components/status/status--bug';
+import Cookie from '../components/status/cookie';
+import Status_section from '../components/status/status-section';
 
 function Home() {
 
@@ -14,9 +16,7 @@ function Home() {
 
   return (    
     <>
-      <Status_green />
-      <Status_bug />
-      <Status_declined />
+      <Status_section />
     </>
   );
 
